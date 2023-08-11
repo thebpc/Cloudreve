@@ -32,7 +32,7 @@ RUN set -ex \
                             -w -s"
 
 # build final image
-FROM alpine:3.12 AS dist
+FROM alpine:3.16.7 AS dist
 
 LABEL maintainer="mritd <mritd@linux.com>"
 
